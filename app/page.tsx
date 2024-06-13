@@ -1,6 +1,6 @@
 import Button from "@/components/ui/Button";
 import NavBar from "@/components/ui/NavBar";
-
+import AboutUs from "@/components/ui/AboutUs";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
@@ -38,6 +38,7 @@ export default function Home() {
                   >
                     Join Us
                   </Button>
+
                 </div>
               </div>
             </div>
@@ -47,6 +48,7 @@ export default function Home() {
       <section id="home-content" className="w-full">
         {/* Additional Content Here */}
       </section>
+      <AboutUs/>
     </main>
   );
 }
